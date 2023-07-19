@@ -2,10 +2,10 @@
 Clone web app, django project, front-end and back-end in full stack project
 
 # THİS PROJECT ACTİVİTY CODES
-python manage.py makemigrations
-python manage.py migrate    
-python manage.py createsuperuser
-python manage.py runserver
+# python manage.py makemigrations
+# python manage.py migrate    
+# python manage.py createsuperuser
+# python manage.py runserver
 
 
 # HTML-CSS-BOOTSTRAPT-JAVASCRİPT-PYTHON-DJANGO 
