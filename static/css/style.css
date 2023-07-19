@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 70%;
+}
+.nav-link {
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* inputs */
+.form {
+    background-color: #121212;
+    padding: 40px 0;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #121212;
+}
+::placeholder {
+    color: black;
+    font-weight: bold;
+    
+}
+input:focus {
+    outline: 3px solid yellow;
+    border: none;
+}
+input[type=submit]:focus {
+    outline: none;
+}
+
+.ekranlar {
+    width: 70%;
+    margin: auto;
+}
+.ekranlar img {
+    max-width: 320px;
+    
+}
+.resimler img {
+    width: 148px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.fa-brands {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+    padding: 3px;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+
+.footer {
+    background-color: #121212;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 578px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+    .container {
+        width: 100%;
+    }
+    
+    .resimler img {
+        display: block;
+        margin: 10px auto;
+        
+    }
+    .ekranlar {
+        width: 100%;
+    }
+}
